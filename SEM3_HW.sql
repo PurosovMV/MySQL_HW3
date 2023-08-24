@@ -97,14 +97,7 @@ SELECT *
 FROM customers
 WHERE (rating > 100) AND (city != "Rome");
 
-CSELECT `employees`.`id`,
-    `employees`.`name`,
-    `employees`.`surname`,
-    `employees`.`specialty`,
-    `employees`.`seniority`,
-    `employees`.`salary`,
-    `employees`.`age`
-FROM `hw2`.`employees`;
+
 
 -- TASK #2
 CREATE TABLE `employees` (
